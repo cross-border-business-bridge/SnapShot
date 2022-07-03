@@ -1,7 +1,8 @@
-import React, { createContext, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import { apiKey } from "../api/config";
-export const PhotoContext = createContext();
+// export const PhotoContext = createContext();
+import PhotoContext from './Context'
 
 const PhotoContextProvider = props => {
   const [images, setImages] = useState([]);

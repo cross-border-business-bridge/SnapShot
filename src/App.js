@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PhotoContextProvider from "./context/PhotoContext";
+import PhotoContextProvider from "./context/Provider";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Header from "./components/Header";
 import Item from "./components/Item";
